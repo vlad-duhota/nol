@@ -6419,14 +6419,34 @@ body.provider section.top-bar .sm-sq .ttl {
     height: 650px;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 1023px) {
   .about-team__list {
-    height: 140vw;
+    height: 350vw;
   }
 }
-@media (max-width: 354px) {
+@media (max-width: 898px) {
   .about-team__list {
-    height: 148vw;
+    height: 400vw;
+  }
+}
+@media (max-width: 640px) {
+  .about-team__list {
+    height: 450vw;
+  }
+}
+@media (max-width: 580px) {
+  .about-team__list {
+    height: 480vw;
+  }
+}
+@media (max-width: 480px) {
+  .about-team__list {
+    height: 520vw;
+  }
+}
+@media (max-width: 374px) {
+  .about-team__list {
+    height: 555vw;
   }
 }
 .about-team-slide {
@@ -6441,6 +6461,11 @@ body.provider section.top-bar .sm-sq .ttl {
 @media (max-width: 1240px) {
   .about-team-slide {
     padding: 15px 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .about-team-slide {
+    height: calc((100% - 30px) / 8) !important;
   }
 }
 .about-team__item {
