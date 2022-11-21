@@ -6421,32 +6421,27 @@ body.provider section.top-bar .sm-sq .ttl {
 }
 @media (max-width: 1023px) {
   .about-team__list {
-    height: 350vw;
+    height: 1590px;
   }
 }
-@media (max-width: 898px) {
+@media (max-width: 767px) {
   .about-team__list {
-    height: 400vw;
+    height: 1330px;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 527px) {
   .about-team__list {
-    height: 450vw;
+    height: 250vw;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 425px) {
   .about-team__list {
-    height: 480vw;
+    height: 270vw;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 375px) {
   .about-team__list {
-    height: 520vw;
-  }
-}
-@media (max-width: 374px) {
-  .about-team__list {
-    height: 555vw;
+    height: 290vw;
   }
 }
 .about-team-slide {
@@ -6465,7 +6460,7 @@ body.provider section.top-bar .sm-sq .ttl {
 }
 @media (max-width: 1024px) {
   .about-team-slide {
-    height: calc((100% - 30px) / 8) !important;
+    height: calc((100% - 30px) / 4) !important;
   }
 }
 .about-team__item {
@@ -6780,6 +6775,151 @@ section.ex-rat .other .goo-bl .text {
     padding-bottom: 54px;
   }
 }
+h1 {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 45px;
+    margin-bottom: 75px;
+  }
+}
+@media (min-width: 1099px) {
+  h1 {
+    font-size: 66px;
+    margin-bottom: 89px;
+  }
+}
+
+.faq {
+  padding: 40px 0;
+}
+@media (min-width: 768px) {
+  .faq {
+    padding: 75px;
+  }
+}
+@media (min-width: 1099px) {
+  .faq {
+    padding: 122px 0 100px;
+  }
+}
+
+.question {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid #2EB7FF;
+  border-radius: 10px;
+  position: relative;
+  background: #fff;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .question {
+    width: 100%;
+  }
+}
+.question .ask {
+  padding: 27px 70px 27px 17px;
+  position: relative;
+}
+
+@media (max-width: 1100px) {
+  .question .ask {
+    padding: 15px 51px 15px 17px;
+  }
+}
+.question .ask.active:after {
+  background: no-repeat center/100% 3px url("../img/src/minus.svg") !important;
+}
+
+.question .ask:after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  transition: 0.4s;
+  display: block;
+  background: no-repeat center/100% 100% url("../img/src/plus.svg");
+}
+
+@media (max-width: 1100px) {
+  .question .ask:after {
+    right: 16px;
+  }
+}
+.question .answer {
+  display: none;
+  padding: 0 31px 27px 17px;
+  position: absolute;
+  top: calc(100% - 6px);
+  width: calc(100% + 2px);
+  left: -1px;
+  z-index: 3;
+  background: #fff;
+  border: 1px solid #2EB7FF;
+  padding: 0px 70px 27px 17px;
+  border-radius: 0px 0px 10px 10px;
+  border-top: none;
+  height: 166px;
+}
+@media (min-width: 1099px) {
+  .question .answer {
+    height: 120px;
+    top: calc(100% - 15px);
+  }
+}
+
+.faq__list {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .faq__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1100px) {
+  .faq__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.faq__text {
+  margin-bottom: 22px;
+}
+@media (min-width: 1100px) {
+  .faq_patient .container {
+    background: url("../img/src/comb2.svg") bottom 0 right 30%/27% no-repeat;
+  }
+}
+@media (min-width: 1100px) {
+  .faq_business .container {
+    background: url("../img/src/comb2.svg") bottom 26% left 26%/27% no-repeat;
+    padding-bottom: 0;
+    position: relative;
+    padding-bottom: 250px;
+  }
+  .faq_business .container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 220.25px;
+    height: 193.38px;
+    background: url(../img/src/faq-arr.svg) center/cover no-repeat;
+    right: 7.5vw;
+    bottom: 125px;
+  }
+}
+
 .disease {
   padding-top: 22px;
 }
