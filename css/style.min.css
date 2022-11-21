@@ -6200,7 +6200,7 @@ section.top-bar .sm-sq a {
   }
 }
 section.top-bar .sm-sq:nth-of-type(2) {
-  right: 13%;
+  right: 1%;
   top: 11%;
 }
 @media (max-width: 1500px) {
