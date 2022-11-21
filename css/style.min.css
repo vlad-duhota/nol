@@ -6095,6 +6095,15 @@ body.business section.top-bar .square {
     border-radius: 18px;
   }
 }
+@media (max-width: 1500px) {
+  section.top-bar .square {
+    width: 450px;
+    height: 500px;
+  }
+  section.top-bar .square img {
+    height: 550px !important;
+  }
+}
 section.top-bar .square:after {
   content: "";
   width: 171px;
@@ -6122,11 +6131,6 @@ section.top-bar .square:after {
 @media (max-width: 1772px) {
   section.top-bar .square:after {
     display: none;
-  }
-}
-@media (max-width: 1500px) {
-  section.top-bar .square:after {
-    display: block;
   }
 }
 
@@ -6204,13 +6208,19 @@ section.top-bar .sm-sq a {
     padding: 10px 14px 7px;
   }
 }
+@media (max-width: 1500px) {
+  section.top-bar .sm-sq {
+    padding: 10px;
+    height: 130px;
+  }
+}
 section.top-bar .sm-sq:nth-of-type(2) {
   right: 1%;
   top: 11%;
 }
 @media (max-width: 1500px) {
   section.top-bar .sm-sq:nth-of-type(2) {
-    right: -22%;
+    right: -3%;
   }
 }
 
@@ -6592,9 +6602,14 @@ body.provider section.top-bar .sm-sq .ttl {
 .about-team .btn {
   width: 100%;
   text-align: center;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
 }
 @media (min-width: 768px) {
+  .about-team .btn {
+    width: 229px;
+  }
+}
+@media (min-width: 1500px) {
   .about-team .btn {
     width: 229px;
     margin: 78px auto 0;
@@ -6870,6 +6885,11 @@ section.ex-rat .other .goo-bl .goo-in {
   background-color: #130E54;
   margin-right: 44px;
 }
+@media (max-width: 1500px) {
+  section.ex-rat .other .goo-bl .goo-in {
+    margin-right: 15px;
+  }
+}
 
 body.provider section.ex-rat .other .goo-bl .goo-in {
   background-color: #2B1FC7;
@@ -6898,6 +6918,12 @@ section.ex-rat .other .goo-bl .text {
     padding-bottom: 54px;
   }
 }
+@media (max-width: 1500px) {
+  .stripe .text {
+    font-weight: 400 !important;
+  }
+}
+
 h1 {
   font-size: 38px;
   margin-bottom: 40px;
