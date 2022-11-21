@@ -6172,7 +6172,7 @@ section.top-bar .square img {
 }
 @media (max-width: 460px) {
   section.top-bar .square img {
-    height: 310px;
+    height: 310px !important;
   }
 }
 @media (max-width: 460px) {
@@ -6200,18 +6200,18 @@ section.top-bar .sm-sq a {
   color: #130E54;
 }
 
+@media (max-width: 1500px) {
+  section.top-bar .sm-sq {
+    padding: 10px;
+    height: 130px;
+  }
+}
 @media (max-width: 767.98px) {
   section.top-bar .sm-sq {
     width: 84px;
     height: 84px;
     border-radius: 16px;
     padding: 10px 14px 7px;
-  }
-}
-@media (max-width: 1500px) {
-  section.top-bar .sm-sq {
-    padding: 10px;
-    height: 130px;
   }
 }
 section.top-bar .sm-sq:nth-of-type(2) {
