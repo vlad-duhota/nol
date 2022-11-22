@@ -4036,6 +4036,11 @@ body.fixed {
   height: 100%;
 }
 
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .cta {
   border: 1px solid #FFFFFF;
   background-color: #130E54;
@@ -4182,13 +4187,13 @@ h1 {
   text-transform: capitalize;
 }
 
-section.org .row > div:nth-of-type(2) p, section.team .team-inn > div .member .sub, section.plates .row > div .inn .text, section.docs .btm .btm-text, section.wellness .columns .coll .col-in, section.wellness .subtitle + p, section.testing-prov .row .col-in p, section.triple-cols .col-inn .l-b p, section.ex-rat .other .goo-bl .text a, section.ex-rat .other .goo-bl .text, section.inquiry .row > div .question .answer, section.inquiry .row > div .question .ask, section.ondemand .bgba p, section.blob .row > div .check-box .check, section.blob .row > div p, section.steps .steps-wrap p, section.testing-services .mySwiper2 > .swiper-wrapper .test-block .l-b .title + p, section.testing-services .mySwiper2 > .swiper-wrapper .exp-text .title + p, section.cta-block .cta-inn p, section.top-bar h1 + p, h2.common-title + .subtitle {
+section.org .row > div:nth-of-type(2) p, section.team .team-inn > div .member .sub, section.plates .row > div .inn .text, section.docs .btm .btm-text, section.wellness .columns .coll .col-in, section.wellness .subtitle + p, section.testing-prov .row .col-in p, section.triple-cols .col-inn .l-b p, section.ex-rat .other .goo-bl .text a, section.inquiry .row > div .question .answer, section.inquiry .row > div .question .ask, section.ondemand .bgba p, section.blob .row > div .check-box .check, section.blob .row > div p, section.steps .steps-wrap p, section.testing-services .mySwiper2 > .swiper-wrapper .test-block .l-b .title + p, section.testing-services .mySwiper2 > .swiper-wrapper .exp-text .title + p, section.cta-block .cta-inn p, section.top-bar h1 + p, h2.common-title + .subtitle {
   font-weight: 300;
   line-height: 180%;
   color: #716E98;
 }
 @media (max-width: 1100px) {
-  section.org .row > div:nth-of-type(2) p, section.team .team-inn > div .member .sub, section.plates .row > div .inn .text, section.docs .btm .btm-text, section.wellness .columns .coll .col-in, section.wellness .subtitle + p, section.testing-prov .row .col-in p, section.triple-cols .col-inn .l-b p, section.ex-rat .other .goo-bl .text a, section.ex-rat .other .goo-bl .text, section.inquiry .row > div .question .answer, section.inquiry .row > div .question .ask, section.ondemand .bgba p, section.blob .row > div .check-box .check, section.blob .row > div p, section.steps .steps-wrap p, section.testing-services .mySwiper2 > .swiper-wrapper .test-block .l-b .title + p, section.testing-services .mySwiper2 > .swiper-wrapper .exp-text .title + p, section.cta-block .cta-inn p, section.top-bar h1 + p, h2.common-title + .subtitle {
+  section.org .row > div:nth-of-type(2) p, section.team .team-inn > div .member .sub, section.plates .row > div .inn .text, section.docs .btm .btm-text, section.wellness .columns .coll .col-in, section.wellness .subtitle + p, section.testing-prov .row .col-in p, section.triple-cols .col-inn .l-b p, section.ex-rat .other .goo-bl .text a, section.inquiry .row > div .question .answer, section.inquiry .row > div .question .ask, section.ondemand .bgba p, section.blob .row > div .check-box .check, section.blob .row > div p, section.steps .steps-wrap p, section.testing-services .mySwiper2 > .swiper-wrapper .test-block .l-b .title + p, section.testing-services .mySwiper2 > .swiper-wrapper .exp-text .title + p, section.cta-block .cta-inn p, section.top-bar h1 + p, h2.common-title + .subtitle {
     font-size: 14px;
     line-height: 150%;
   }
@@ -6914,9 +6919,6 @@ section.inquiry .row > div.curr a.curr-block:hover {
 section.inquiry .row > div.curr a.curr-block:hover:after {
   background: no-repeat center/contain url("../img/src/arr5.svg");
 }
-section.ex-rat {
-  padding-bottom: 87px;
-}
 @media (max-width: 768px) {
   section.ex-rat {
     position: relative;
@@ -7066,7 +7068,19 @@ section.ex-rat .other .goo-bl .text {
 @media (max-width: 1100px) {
   section.ex-rat .other .goo-bl .text {
     white-space: unset;
+    font-weight: 300;
+    line-height: 180%;
+    color: #716E98;
   }
+}
+@media (max-width: 1100px) and (max-width: 1100px) {
+  section.ex-rat .other .goo-bl .text {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+section.ex-rat .other .goo-bl .text a {
+  padding-bottom: 87px;
 }
 @media (max-width: 1100px) {
   section.ex-rat {
@@ -7081,8 +7095,10 @@ section.triple-cols {
     padding-bottom: 56px;
   }
 }
-section.triple-cols .row > div {
-  margin-bottom: 18px;
+@media (max-width: 1100px) {
+  section.triple-cols .row > div {
+    margin-bottom: 18px;
+  }
 }
 section.triple-cols .col-inn {
   height: 100%;
