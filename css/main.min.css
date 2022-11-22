@@ -7804,6 +7804,8 @@ section.org .row > div:nth-of-type(2) p {
   }
 }
 section.stripe {
+  position: relative;
+  z-index: 2;
   color: #FFFFFF;
 }
 section.stripe.orange {
