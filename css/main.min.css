@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;900&display=swap"); /*!
- * Bootstrap Reboot v5.2.3 (https://getbootstrap.com/)
+ * Bootstrap Reboot v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -479,7 +479,7 @@ progress {
 }
 
 /*!
- * Bootstrap Grid v5.2.3 (https://getbootstrap.com/)
+ * Bootstrap Grid v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -4187,13 +4187,13 @@ h1 {
   text-transform: capitalize;
 }
 
-section.org .row > div:nth-of-type(2) p, section.team .team-inn > div .member .sub, section.plates .row > div .inn .text, section.docs .btm .btm-text, section.wellness .columns .coll .col-in, section.wellness .subtitle + p, section.testing-prov .row .col-in p, section.triple-cols .col-inn .l-b p, section.ex-rat .other .goo-bl .text a, section.inquiry .row > div .question .answer, section.inquiry .row > div .question .ask, section.ondemand .bgba p, section.blob .row > div .check-box .check, section.blob .row > div p, section.steps .steps-wrap p, section.testing-services .mySwiper2 > .swiper-wrapper .test-block .l-b .title + p, section.testing-services .mySwiper2 > .swiper-wrapper .exp-text .title + p, section.cta-block .cta-inn p, section.top-bar h1 + p, h2.common-title + .subtitle {
+section.org .row > div:nth-of-type(2) p, section.team .team-inn > div .member .sub, section.plates .row > div .inn .text, section.docs .btm .btm-text, section.wellness .columns .coll .col-in, section.wellness .subtitle + p, section.testing-prov .row .col-in p, section.triple-cols .col-inn .l-b p, section.ex-rat .other .goo-bl .text a, section.inquiry .row > div .question .answer, section.inquiry .row > div .question .ask, section.ondemand .bgba p, section.blob .row > div .check-box .check, section.blob .row > div p, section.steps .steps-wrap p, section.testing-services .mySwiper2 > .swiper-wrapper .test-block .l-b .title + p, section.testing-services .mySwiper2 > .swiper-wrapper .exp-text .title + p, section.testing-services.no-thumb .row > div .common-title + p, section.cta-block .cta-inn p, section.top-bar .numbuh, section.top-bar .suddle, section.top-bar h1 + p, h2.common-title + .subtitle {
   font-weight: 300;
   line-height: 180%;
   color: #716E98;
 }
 @media (max-width: 1100px) {
-  section.org .row > div:nth-of-type(2) p, section.team .team-inn > div .member .sub, section.plates .row > div .inn .text, section.docs .btm .btm-text, section.wellness .columns .coll .col-in, section.wellness .subtitle + p, section.testing-prov .row .col-in p, section.triple-cols .col-inn .l-b p, section.ex-rat .other .goo-bl .text a, section.inquiry .row > div .question .answer, section.inquiry .row > div .question .ask, section.ondemand .bgba p, section.blob .row > div .check-box .check, section.blob .row > div p, section.steps .steps-wrap p, section.testing-services .mySwiper2 > .swiper-wrapper .test-block .l-b .title + p, section.testing-services .mySwiper2 > .swiper-wrapper .exp-text .title + p, section.cta-block .cta-inn p, section.top-bar h1 + p, h2.common-title + .subtitle {
+  section.org .row > div:nth-of-type(2) p, section.team .team-inn > div .member .sub, section.plates .row > div .inn .text, section.docs .btm .btm-text, section.wellness .columns .coll .col-in, section.wellness .subtitle + p, section.testing-prov .row .col-in p, section.triple-cols .col-inn .l-b p, section.ex-rat .other .goo-bl .text a, section.inquiry .row > div .question .answer, section.inquiry .row > div .question .ask, section.ondemand .bgba p, section.blob .row > div .check-box .check, section.blob .row > div p, section.steps .steps-wrap p, section.testing-services .mySwiper2 > .swiper-wrapper .test-block .l-b .title + p, section.testing-services .mySwiper2 > .swiper-wrapper .exp-text .title + p, section.testing-services.no-thumb .row > div .common-title + p, section.cta-block .cta-inn p, section.top-bar .numbuh, section.top-bar .suddle, section.top-bar h1 + p, h2.common-title + .subtitle {
     font-size: 14px;
     line-height: 150%;
   }
@@ -5347,6 +5347,26 @@ section.top-bar h1 + p {
     display: none;
   }
 }
+section.top-bar .suddle {
+  margin-top: 33px;
+}
+@media (max-width: 768px) {
+  section.top-bar .suddle {
+    margin-top: 23px;
+  }
+}
+section.top-bar .numbuh {
+  display: block;
+  font-weight: 600;
+}
+@media (max-width: 1100px) {
+  section.top-bar .numbuh + .numbuh {
+    margin-bottom: 57px;
+  }
+}
+section.top-bar .numbuh + .btn {
+  margin-top: 40px;
+}
 section.top-bar .square {
   height: 623px;
   width: 572px;
@@ -5434,6 +5454,14 @@ section.top-bar .sm-sq {
   padding: 14px 24px;
   text-align: center;
 }
+section.top-bar .sm-sq.visually-hidden {
+  visibility: hidden;
+}
+@media (max-width: 768px) {
+  section.top-bar .sm-sq.visually-hidden {
+    display: none;
+  }
+}
 section.top-bar .sm-sq a {
   display: flex;
   flex-direction: column;
@@ -5462,7 +5490,7 @@ section.top-bar .sm-sq:nth-of-type(2) {
 @media (max-width: 1100px) {
   section.top-bar .sm-sq:nth-of-type(2) {
     left: 26px;
-    bottom: 116px;
+    bottom: 77px;
     top: unset;
   }
 }
@@ -5478,7 +5506,7 @@ section.top-bar .sm-sq:nth-of-type(3) {
 @media (max-width: 1100px) {
   section.top-bar .sm-sq:nth-of-type(3) {
     left: 26px;
-    bottom: 208px;
+    bottom: 277px;
     top: unset;
   }
 }
@@ -5489,7 +5517,7 @@ section.top-bar .sm-sq:nth-of-type(4) {
 @media (max-width: 1100px) {
   section.top-bar .sm-sq:nth-of-type(4) {
     left: 26px;
-    bottom: 24px;
+    bottom: 177px;
     top: unset;
   }
 }
@@ -5621,6 +5649,43 @@ body.provider section.cta-block .cta-inn p, body.business section.cta-block .cta
 section.testing-services {
   padding: 75px 0 0;
   position: relative;
+}
+section.testing-services.no-thumb:after {
+  top: 0px;
+  height: 760px;
+}
+section.testing-services.no-thumb:before {
+  left: 23%;
+  top: 45%;
+}
+section.testing-services.no-thumb .row > div:nth-of-type(1) {
+  padding-right: 5%;
+}
+@media (max-width: 1500px) {
+  section.testing-services.no-thumb .row > div:nth-of-type(1) {
+    padding-right: 12.5px;
+  }
+}
+section.testing-services.no-thumb .row > div .common-title {
+  margin-bottom: 53px;
+}
+@media (max-width: 1100px) {
+  section.testing-services.no-thumb .row > div .common-title {
+    margin-bottom: 10px;
+  }
+}
+section.testing-services.no-thumb .row > div .common-title + p {
+  margin-bottom: 43px;
+}
+@media (max-width: 1100px) {
+  section.testing-services.no-thumb .row > div .common-title + p {
+    margin-bottom: 21px;
+  }
+  section.testing-services.no-thumb .row > div .common-title + p + .btn {
+    width: 100%;
+    max-width: 325px;
+    margin: 0 auto 30px;
+  }
 }
 @media (max-width: 1500px) {
   section.testing-services {
@@ -7141,6 +7206,10 @@ section.triple-cols .col-inn .l-b a {
   font-size: 16px;
   line-height: 150%;
   color: #2B1FC7;
+}
+section.testing-prov .common-title.small {
+  font-size: 26px;
+  margin-bottom: 57px;
 }
 @media (max-width: 1100px) {
   section.testing-prov {
