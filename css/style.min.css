@@ -8599,6 +8599,11 @@ body.provider section.cta-block .cta-inn p, body.business section.cta-block .cta
     font-size: 24px;
   }
 }
+@media (max-width: 1099px) {
+  .solutions__name {
+    margin-bottom: 0;
+  }
+}
 .solutions__title {
   padding-bottom: 7px;
   border-bottom: 2px solid #CBC7FF;
