@@ -8972,6 +8972,13 @@ body.provider section.cta-block .cta-inn p, body.business section.cta-block .cta
   align-items: center;
   border: 2px solid #f1f1f1;
 }
+.monkey-pox .options .test-block .btn {
+  background-color: #fff !important;
+}
+.monkey-pox .options .test-block .btn:hover {
+  background-color: #130E54 !important;
+  color: #fff !important;
+}
 .monkey-pox .options .test-block.bg {
   background: #fbf5f0;
 }
@@ -9224,13 +9231,15 @@ body.provider section.cta-block .cta-inn p, body.business section.cta-block .cta
   align-items: center;
   color: rgba(19, 14, 84, 0.6);
 }
-.monkey-pox .faq .answer {
-  height: 146%;
-}
 @media (min-width: 1099px) {
   .monkey-pox .faq .answer {
     height: 120px;
     top: calc(100% - 15px);
+  }
+}
+@media (min-width: 1500px) {
+  .monkey-pox .faq .answer {
+    height: 85px;
   }
 }
 @media (max-width: 1500px) {
@@ -9240,7 +9249,12 @@ body.provider section.cta-block .cta-inn p, body.business section.cta-block .cta
 }
 @media (max-width: 1099px) {
   .monkey-pox .faq .answer {
-    height: 255%;
+    height: 250%;
+  }
+}
+@media (max-width: 500px) {
+  .monkey-pox .faq .answer {
+    height: 251%;
   }
 }
 .monkey-pox .faq .common-title {
