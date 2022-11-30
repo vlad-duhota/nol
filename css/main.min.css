@@ -6163,6 +6163,9 @@ section.steps {
   padding-bottom: 250px;
   position: relative;
 }
+section.steps .copa {
+  max-width: 1624px;
+}
 body.provider section.steps {
   padding-bottom: 130px;
 }
@@ -6208,6 +6211,26 @@ section.steps .common-title {
   section.steps .common-title {
     max-width: 100%;
   }
+}
+section.steps .steps-wrap.shox .step .step-inn {
+  height: auto;
+  min-height: auto;
+}
+section.steps .steps-wrap.shox .step .step-inn .group {
+  display: flex;
+  align-items: center;
+}
+section.steps .steps-wrap.shox .step .step-inn .group .number {
+  font-size: 66px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  letter-spacing: 0.06em;
+}
+section.steps .steps-wrap.shox .step .step-inn .group .title {
+  border-bottom: unset;
+  font-size: 24px;
+  line-height: 1;
+  padding-bottom: 0;
 }
 section.steps .steps-wrap .img-step .step .step-inn {
   padding: 0;
@@ -6587,6 +6610,15 @@ section.blob .row > div .check-box {
   max-width: 553px;
   justify-content: space-between;
   margin-bottom: 25px;
+}
+section.blob .row > div .check-box.w-100 .check {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+section.blob .row > div .check-box.w-100 .check:before {
+  min-width: 15px;
 }
 @media (max-width: 1100px) {
   section.blob .row > div .check-box {
