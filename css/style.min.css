@@ -8510,13 +8510,15 @@ body.provider section.cta-block .cta-inn p, body.business section.cta-block .cta
 }
 @media (min-width: 1099px) {
   .why {
-    background: url("../img/src/bg11.svg") top 55% left 49%/33% no-repeat;
+    background: url("../img/src/hospital-decor.png") top 32% left 53%/22% no-repeat;
     background-color: #FBFBFB;
   }
 }
 @media (min-width: 1500px) {
   .why {
     padding: 82px 0 120px;
+    background: url("../img/src/hospital-decor.png") top 45% left 52%/400px no-repeat;
+    background-color: #FBFBFB;
   }
 }
 .why__text {
