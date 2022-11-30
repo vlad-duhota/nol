@@ -7335,7 +7335,6 @@ section.wellness .bgba {
   padding: 30px 30px 40px;
   background: no-repeat center left/cover url("../img/src/bg6.svg");
   border-radius: 16px;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -7371,7 +7370,7 @@ section.wellness .bgba .title {
     font-size: 20px;
   }
 }
-section.wellness .bgba .title:before {
+section.wellness .bgba .title .swiper-slide:before {
   content: "";
   width: 65px;
   height: 54px;
@@ -7380,7 +7379,7 @@ section.wellness .bgba .title:before {
   margin-right: 30px;
 }
 @media (max-width: 1100px) {
-  section.wellness .bgba .title:before {
+  section.wellness .bgba .title .swiper-slide:before {
     width: 16px;
     height: 11px;
     margin-right: 12px;
