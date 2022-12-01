@@ -10432,6 +10432,255 @@ section.blob .mob-blob img {
   }
 }
 
+.insurances {
+  padding: 22px 0 40px;
+}
+@media (min-width: 768px) {
+  .insurances {
+    padding: 75px 0;
+  }
+}
+@media (min-width: 1099px) {
+  .insurances {
+    padding: 145px 0;
+  }
+}
+.insurances__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  color: #716E98;
+  max-width: 675px;
+  margin: 8px 0;
+}
+@media (min-width: 768px) {
+  .insurances__text {
+    margin: 20px 0 64px;
+  }
+}
+.insurances .nice-select {
+  float: none !important;
+  width: 100%;
+  border: 1px solid #716E98;
+  border-radius: 16px;
+  padding: 14px 16px 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 186.36%;
+  color: #716E98;
+}
+.insurances .nice-select .option {
+  padding-left: 28px;
+}
+.insurances .nice-select::after {
+  width: 25.77px;
+  height: 25.77px;
+  border-radius: 20px;
+  margin-top: -10px;
+  border: none !important;
+  right: 20px !important;
+  background: url(../img/src/select-arr.svg) center/12px no-repeat;
+  transform: none !important;
+  background-color: #2B1FC7;
+}
+.insurances .nice-select:focus {
+  border-color: #4E41F9;
+}
+.insurances .nice-select .list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 1099px) {
+  .insurances .nice-select .list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.what {
+  padding: 35px 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .what {
+    padding: 75px 0;
+  }
+}
+@media (min-width: 1099px) {
+  .what {
+    padding: 100px 0;
+  }
+}
+.what__up-title {
+  color: #130E54;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .what__up-title {
+    font-size: 16px;
+  }
+}
+.what__list {
+  list-style: none;
+  padding-left: 0;
+  color: #716E98;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .what__list {
+    font-size: 16px;
+  }
+}
+.what__item {
+  position: relative;
+  padding-left: 23px;
+}
+.what__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: rgba(19, 14, 84, 0.6);
+  left: 11.5px;
+  top: 12px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.what p {
+  font-size: 16px;
+  line-height: 150%;
+  color: #716E98;
+  font-size: 14px;
+  max-width: 850px;
+}
+.what p span {
+  color: #130E54;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .what p {
+    font-size: 16px;
+  }
+}
+.what__text_1 {
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+@media (min-width: 768px) {
+  .what__text_1 {
+    margin-top: 22px;
+  }
+}
+.what__text_2 {
+  margin-bottom: 20px;
+}
+
+.faq-patient h2 {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+@media (min-width: 1099px) {
+  .faq-patient h2 {
+    font-size: 66px;
+    margin-bottom: 33px;
+  }
+}
+.faq-patient .faq-intro {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.faq-patient .faq-intro h1 {
+  font-size: 38px;
+}
+@media (min-width: 1099px) {
+  .faq-patient .faq-intro h1 {
+    font-size: 81px;
+  }
+}
+@media (min-width: 768px) {
+  .faq-patient .faq-intro {
+    padding-top: 45px;
+  }
+}
+@media (min-width: 1099px) {
+  .faq-patient .faq-intro {
+    padding-top: 122px;
+    padding-bottom: 105px;
+  }
+}
+.faq-patient .faq-intro__text {
+  max-width: 777px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: #716E98;
+  margin-top: 8px;
+}
+@media (min-width: 768px) {
+  .faq-patient .faq-intro__text {
+    margin-top: 25px;
+  }
+}
+.faq-patient .faq_general {
+  padding-top: 0;
+  padding-bottom: 59px;
+}
+@media (min-width: 1099px) {
+  .faq-patient .faq_general {
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 1500px) {
+  .faq-patient .faq_general {
+    padding-bottom: 179px;
+  }
+}
+.faq-patient .faq_appointments {
+  padding-top: 0;
+  padding-bottom: 45px;
+  background: url("../img/src/comb2.svg") top 10% right 33%/470px no-repeat;
+}
+@media (min-width: 1099px) {
+  .faq-patient .faq_appointments {
+    padding-bottom: 105px;
+  }
+}
+@media (max-width: 1629px) {
+  .faq-patient .faq_appointments {
+    background: url("../img/src/comb2.svg") top 10% right 10vw/470px no-repeat;
+  }
+}
+@media (max-width: 1500px) {
+  .faq-patient .faq_appointments {
+    background: url("../img/src/comb2.svg") top 10% right 14vw/470px no-repeat;
+  }
+}
+.faq-patient .faq_appointments h2 {
+  max-width: 845px;
+}
+@media (min-width: 1099px) {
+  .faq-patient .faq_appointments h2 {
+    position: relative;
+  }
+  .faq-patient .faq_appointments h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 224.2px;
+    height: 204.94px;
+    transform: rotate(189deg);
+    right: 0;
+    top: -90px;
+    background: url(../img/src/faq-arr.svg) center/cover no-repeat;
+  }
+}
+
 .supplies .main {
   padding: 30px 0 70px;
 }
