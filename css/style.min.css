@@ -5524,6 +5524,9 @@ header.header .slide-header .inn .menu li a {
 .pop-up .bgn-wf-row:not(:last-child) input {
   width: 100%;
   border: none;
+  position: relative;
+  background: transparent;
+  z-index: 3;
 }
 .pop-up .bgn-wf-row:not(:last-child) input:focus-visible {
   position: relative;
@@ -7605,11 +7608,14 @@ section.ex-rat .other .goo-bl .text {
 .article-list {
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
+  padding-bottom: 69px;
   gap: 24px 15px;
 }
 @media (min-width: 992px) {
   .article-list {
     width: calc(100% - 20.15625vw);
+    padding-bottom: 40px;
     gap: 1.6666666667vw;
   }
 }
@@ -7625,6 +7631,7 @@ section.ex-rat .other .goo-bl .text {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7716,7 +7723,7 @@ section.ex-rat .other .goo-bl .text {
 .article-list .pagination {
   list-style: none;
   padding-left: 0;
-  margin: 59px 0 69px;
+  margin: 59px 0 0;
   width: 100%;
   display: flex;
   column-gap: 5px;
@@ -8342,8 +8349,8 @@ section.ex-rat .other .goo-bl .text {
 }
 .urgent-care .pr-care_b3 .container .row .col-lg-4.col-md-12 .svg-arrow, .urgent-care .pr-care_b3 .container .row .accurate-text-block .svg-arrow {
   position: absolute;
-  bottom: -15%;
-  left: 20%;
+  bottom: -7%;
+  left: 14%;
 }
 .urgent-care .pr-care_b3 .container .row .col-lg-4.col-md-12 .btn, .urgent-care .pr-care_b3 .container .row .accurate-text-block .btn {
   background: #2B1FC7;
@@ -8462,6 +8469,7 @@ section.ex-rat .other .goo-bl .text {
 @media (max-width: 1500px) {
   .urgent-care .pr-care_b3 .svg-arrow {
     bottom: -20% !important;
+    left: 17% !important;
   }
 }
 @media (max-width: 1157px) {
@@ -10375,7 +10383,7 @@ section.blob .mob-blob img {
   text-align: center;
   padding: 14px 24px;
   top: 20%;
-  right: 35%;
+  left: -11%;
 }
 @media (max-width: 1099px) {
   .pr-care .pr-care_b3 .container .row .col-lg-4.col-12 .img-bulb .bulb, .pr-care .pr-care_b3 .container .row .accurate-text-block .img-bulb .bulb {
