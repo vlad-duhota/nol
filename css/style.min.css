@@ -10472,12 +10472,13 @@ section.blob .mob-blob img {
   font-size: 14px;
   line-height: 150%;
   color: #716E98;
-  max-width: 675px;
+  max-width: 740px;
   margin: 8px 0;
 }
 @media (min-width: 768px) {
   .insurances__text {
     margin: 20px 0 64px;
+    font-size: 18px;
   }
 }
 .insurances .nice-select {
