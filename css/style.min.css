@@ -10901,6 +10901,112 @@ section.blob .mob-blob img {
   height: 3px;
 }
 
+.labs-hero {
+  padding: 22px 0 53px;
+}
+@media (min-width: 768px) {
+  .labs-hero {
+    padding: 45px 0 53px;
+  }
+}
+@media (min-width: 1099px) {
+  .labs-hero {
+    padding: 122px 0 149px;
+  }
+}
+.labs-hero h2 {
+  margin-bottom: 20px;
+}
+.labs-hero__up-text {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #130E54;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .labs-hero__up-text {
+    font-size: 16px;
+  }
+}
+.labs-hero__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  color: #716E98;
+}
+@media (min-width: 768px) {
+  .labs-hero__text {
+    font-size: 16px;
+  }
+}
+.labs-hero__block:not(:last-child) {
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .labs-hero__block:not(:last-child) {
+    margin-bottom: 28px;
+  }
+}
+.labs-hero__block_first {
+  margin-top: 8px;
+  margin-bottom: 36px !important;
+}
+@media (min-width: 768px) {
+  .labs-hero__block_first {
+    margin-top: 28px;
+    margin-bottom: 84px !important;
+  }
+}
+.labs-hero__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 965px;
+  gap: 16px;
+}
+.labs-hero__form-input {
+  padding: 15px;
+  border: 1px solid #716E98;
+  border-radius: 8px;
+}
+.labs-hero__form-input::placeholder {
+  color: #716E98;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .labs-hero__form-input::placeholder {
+    font-size: 16px;
+  }
+}
+.labs-hero__form-input:focus::placeholder {
+  font-size: 0;
+}
+.labs-hero__form-btn {
+  background: #130E54;
+  border-radius: 8px;
+  border: 1px solid #130E54;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 12px 0;
+  transition: background 0.3s, color 0.3s;
+}
+.labs-hero__form-btn:hover {
+  background: #fff;
+  color: #130E54;
+}
+@media (min-width: 768px) {
+  .labs-hero__form {
+    flex-direction: row;
+  }
+  .labs-hero__form-input {
+    flex: 1 1 100%;
+  }
+  .labs-hero__form-btn {
+    flex: 0 0 171px;
+  }
+}
+
 .supplies .main {
   padding: 30px 0 70px;
 }
