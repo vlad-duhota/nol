@@ -5408,6 +5408,9 @@ header.header .slide-header .inn .menu li a {
 .pop-up .bgn-wf-row:not(:last-child) input {
   width: 100%;
   border: none;
+  position: relative;
+  background: transparent;
+  z-index: 3;
 }
 .pop-up .bgn-wf-row:not(:last-child) input:focus-visible {
   position: relative;
