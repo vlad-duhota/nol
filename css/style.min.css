@@ -10522,9 +10522,6 @@ section.blob .mob-blob img {
 
 .what {
   padding: 35px 0;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
 }
 @media (min-width: 768px) {
   .what {
