@@ -10498,12 +10498,18 @@ section.blob .mob-blob img {
   width: 25.77px;
   height: 25.77px;
   border-radius: 20px;
-  margin-top: -10px;
+  margin-top: -12px;
   border: none !important;
   right: 20px !important;
+  top: 50%;
   background: url(../img/src/select-arr.svg) center/12px no-repeat;
-  transform: none !important;
   background-color: #2B1FC7;
+  transform: rotate(0);
+  transform-origin: 50% 50%;
+  transition: transform 0.3s;
+}
+.insurances .nice-select.open::after {
+  transform: rotate(180deg);
 }
 .insurances .nice-select:focus {
   border-color: #4E41F9;
@@ -10511,6 +10517,7 @@ section.blob .mob-blob img {
 .insurances .nice-select .list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 15px 0;
 }
 @media (min-width: 1099px) {
   .insurances .nice-select .list {
