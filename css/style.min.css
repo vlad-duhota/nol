@@ -11507,12 +11507,12 @@ section.ondemand .bgba p {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1099px) {
   .protect-sexual-health__list {
-    grid-template-columns: repeat(3, 1fr);
+    padding: 0 75px;
   }
 }
-@media (min-width: 1099px) {
+@media (min-width: 1500px) {
   .protect-sexual-health__list {
     padding: 0 152px;
   }
