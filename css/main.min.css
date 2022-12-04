@@ -5391,31 +5391,23 @@ header.header .slide-header .inn .menu li a {
   margin-bottom: 10px;
   background: #fff;
 }
-.pop-up .bgn-wf-row:not(:last-child) .bgn-wf-label {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.pop-up .bgn-wf-row:not(:last-child) input {
+  width: 100%;
+  border: none;
+}
+.pop-up .bgn-wf-row:not(:last-child) input::placeholder {
   font-weight: 300;
   font-size: 14px;
   line-height: 175.66%;
   color: #716E98;
 }
 @media (min-width: 768px) {
-  .pop-up .bgn-wf-row:not(:last-child) .bgn-wf-label {
+  .pop-up .bgn-wf-row:not(:last-child) input::placeholder {
     font-weight: 400;
   }
 }
-.pop-up .bgn-wf-row:not(:last-child) input {
-  width: 100%;
-  border: none;
-  position: relative;
-  background: transparent;
-  z-index: 3;
-}
-.pop-up .bgn-wf-row:not(:last-child) input:focus-visible {
-  position: relative;
-  background: #fff;
-  z-index: 3;
+.pop-up .bgn-wf-row:not(:last-child) input:focus-visible::placeholder {
+  font-size: 0;
 }
 .pop-up .bgn-wf-row input[type=reset] {
   display: none;
