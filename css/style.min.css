@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;900&display=swap"); /*!
- * Bootstrap Reboot v5.2.3 (https://getbootstrap.com/)
+ * Bootstrap Reboot v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -479,7 +479,7 @@ progress {
 }
 
 /*!
- * Bootstrap Grid v5.2.3 (https://getbootstrap.com/)
+ * Bootstrap Grid v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -4675,22 +4675,22 @@ header.header .header-main nav > ul.main-menu {
   align-items: center;
 }
 header.header .header-main nav > ul.main-menu > li:nth-of-type(1).opened > a:before {
-  background-color: #2EB7FF;
-  border: 1px solid #2EB7FF;
+  background-color: #2B1FC7;
+  border: 1px solid #2B1FC7;
 }
 header.header .header-main nav > ul.main-menu > li:nth-of-type(1) .sub-menu {
-  border: 1px solid #2EB7FF;
+  border: 1px solid #2B1FC7;
 }
 header.header .header-main nav > ul.main-menu > li:nth-of-type(1) .sub-menu .left-block .close {
   background: no-repeat center/100% 100% url("../img/src/close2b.svg");
 }
 header.header .header-main nav > ul.main-menu > li:nth-of-type(1) .sub-menu .left-block .btn {
-  border: 1px solid #2EB7FF;
-  color: #2EB7FF;
+  border: 1px solid #2B1FC7;
+  color: #2B1FC7;
 }
 header.header .header-main nav > ul.main-menu > li:nth-of-type(1) .sub-menu .left-block .btn:hover {
   color: #FFFFFF !important;
-  background-color: #2EB7FF;
+  background-color: #2B1FC7;
 }
 @media (max-width: 1099.98px) {
   header.header .header-main nav > ul.main-menu > li:nth-of-type(1) .sub-menu {
@@ -10378,6 +10378,9 @@ section.blob .mob-blob img {
   .pr-care .pr-care_b3 .container h2 {
     font-size: 45px;
   }
+}
+.pr-care .pr-care_b3 .container .btn {
+  margin-top: 56px;
 }
 @media (max-width: 1099px) {
   .pr-care .pr-care_b3 .container .row {
