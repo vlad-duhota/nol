@@ -12414,6 +12414,16 @@ section.ondemand .bgba p {
 .health-cards__item-content {
   padding: 0 20px 20px;
 }
+@media (min-width: 1099px) {
+  .health-cards__item-content {
+    min-height: 188px;
+  }
+}
+@media (min-width: 1500px) {
+  .health-cards__item-content {
+    min-height: 238px;
+  }
+}
 @media (min-width: 1500px) {
   .health-cards__item-content {
     padding: 0 40px 44px;
