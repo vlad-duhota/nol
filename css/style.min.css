@@ -11828,6 +11828,12 @@ section.ondemand .bgba p {
     margin-top: 50px;
   }
 }
+@media (max-width: 1500px) {
+  .defense .img-col .sm-sq:nth-of-type(4) {
+    bottom: 9%;
+    right: 20%;
+  }
+}
 @media (max-width: 1099px) {
   .defense .text-col {
     margin-bottom: 75px !important;
