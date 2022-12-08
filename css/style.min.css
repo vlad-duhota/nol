@@ -11823,15 +11823,20 @@ section.ondemand .bgba p {
 }
 
 @media (max-width: 768px) {
-  .defense .img-col {
+  .defense .container .img-col {
     order: -1;
     margin-top: 50px;
   }
 }
 @media (max-width: 1500px) {
-  .defense .img-col .sm-sq:nth-of-type(4) {
+  .defense .container .img-col .sm-sq:nth-of-type(4) {
     bottom: 9%;
     right: 20%;
+  }
+}
+@media (min-width: 1099px) {
+  .defense .container .img-col .square > img {
+    height: 102% !important;
   }
 }
 @media (max-width: 1099px) {
