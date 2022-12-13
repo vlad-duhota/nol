@@ -12554,6 +12554,51 @@ section.ondemand .bgba p {
   color: #130E54;
 }
 
+.back-school .copa .common-title {
+  max-width: 100% !important;
+  margin-bottom: 30px !important;
+  position: relative;
+  z-index: 3;
+}
+@media (min-width: 576px) {
+  .back-school .copa .common-title {
+    text-align: center;
+    margin-bottom: 41px !important;
+  }
+}
+@media (min-width: 1099px) {
+  .back-school .copa .step-cont {
+    position: relative;
+  }
+  .back-school .copa .step-cont::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("../img/src/comb2.svg") top 10% right 33%/470px no-repeat;
+    width: 477px;
+    height: 413px;
+    left: 313px;
+    bottom: 53px;
+  }
+  .back-school .copa .step-cont::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("../img/src/comb2.svg") top 10% right 33%/470px no-repeat;
+    width: 477px;
+    height: 413px;
+    right: 200px;
+    top: -150px;
+  }
+}
+.back-school .copa .step-cont .step-inn {
+  position: relative;
+  z-index: 3;
+  background: #fff;
+}
+.back-school .copa .step-cont .step {
+  padding: 0 25px !important;
+}
 .back-school .copa ul {
   list-style: none;
   padding-left: 0;
