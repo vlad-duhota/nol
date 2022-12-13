@@ -13026,6 +13026,7 @@ section.ondemand .bgba p {
 @media (min-width: 1099px) {
   .blob-returning {
     padding-top: 50px;
+    padding-bottom: 100px;
   }
 }
 @media (max-width: 450px) {
