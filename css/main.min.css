@@ -6386,10 +6386,15 @@ section.steps:after {
 }
 @media (max-width: 1500px) {
   section.steps {
-    padding: 0 0 75px;
+    padding: 0 0 150px;
   }
   body.patient section.steps {
     padding: 0 0 150px;
+  }
+}
+@media (max-width: 1100px) {
+  section.steps {
+    padding: 0 0 50px;
   }
 }
 section.steps .common-title {
@@ -6456,7 +6461,7 @@ section.steps .steps-wrap > div .step .step-inn {
   background: #FFFFFF;
   padding: 18px 30px 60px;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
-  border-radius: 16px;
+  border-radius: 10px;
   height: 100%;
   min-height: 370px;
   position: relative;
@@ -7516,16 +7521,19 @@ section.testing-prov .row .col-in .img img {
   bottom: 0;
   left: 0;
   position: absolute;
+  border-radius: 32px;
 }
 @media (max-width: 1500px) {
   section.testing-prov .row .col-in .img img {
     height: auto;
     object-fit: cover;
+    border-radius: 0;
   }
 }
 @media (max-width: 768px) {
   section.testing-prov .row .col-in .img img {
     height: 124%;
+    border-radius: 14px;
   }
 }
 section.testing-prov .row .col-in .title {
@@ -8057,7 +8065,12 @@ section.team .team-inn > div .member .sub {
   line-height: 140%;
 }
 section.org {
-  padding: 30px 0 75px;
+  padding: 50px 0 90px;
+}
+@media (max-width: 768px) {
+  section.org {
+    padding: 10px 0 70px;
+  }
 }
 section.org .mob-title {
   margin-bottom: 27px;
@@ -8429,5 +8442,64 @@ footer.footer .bottom-row .container .partners img {
 @media (max-width: 1099.98px) {
   footer.footer .bottom-row .container .partners img {
     margin-right: 20px;
+  }
+}
+
+.answer {
+  height: auto !important;
+}
+
+@media (max-width: 1440px) {
+  .step-cont {
+    gap: 66px;
+  }
+  .step-cont .step {
+    padding: 0;
+    width: calc(33.33% - 44px);
+  }
+}
+@media (max-width: 1100px) {
+  .step-cont {
+    gap: 0;
+  }
+}
+@media (max-width: 1440px) {
+  section.ex-rat {
+    padding-bottom: 95px;
+  }
+}
+@media (max-width: 1440px) {
+  .org-cont {
+    gap: 98px;
+  }
+  .org-cont > .col-lg-6 {
+    padding: 0;
+    width: calc(50% - 49px);
+  }
+}
+@media (max-width: 768px) {
+  .org-cont {
+    gap: 0;
+  }
+  .org-cont > .col-lg-6 {
+    width: 100%;
+  }
+}
+@media (max-width: 1500px) {
+  section.cta-block .cta-inn .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 450px) {
+  section.steps .steps-wrap.shox .step .step-inn .group .number {
+    font-size: 55px;
+    margin-right: 5px;
+  }
+  section.steps .steps-wrap.shox .step .step-inn .group .title {
+    font-size: 20px;
+    margin: 0;
+  }
+  section.steps .steps-wrap > div .swiper-slide {
+    width: 80%;
   }
 }
