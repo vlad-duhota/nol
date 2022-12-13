@@ -13959,6 +13959,12 @@ section.ondemand .bgba p {
 @media (min-width: 1099px) {
   .get-back__list {
     grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+}
+@media (min-width: 1500px) {
+  .get-back__list {
+    grid-template-columns: repeat(4, 1fr);
     gap: 51px;
   }
 }
@@ -13989,6 +13995,16 @@ section.ondemand .bgba p {
   padding: 0 40px;
 }
 @media (min-width: 576px) {
+  .get-back__item-inner {
+    padding: 0 45px;
+  }
+}
+@media (min-width: 1099px) {
+  .get-back__item-inner {
+    padding: 0 25px;
+  }
+}
+@media (min-width: 1500px) {
   .get-back__item-inner {
     padding: 0 45px;
   }
