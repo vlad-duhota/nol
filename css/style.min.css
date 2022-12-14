@@ -5367,6 +5367,30 @@ header.header .slide-header .inn .menu li a {
   color: #eaeaea;
 }
 
+@media (min-width: 1099px) {
+  .section-p .container {
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+  }
+}
+@media (min-width: 1500px) {
+  .section-p .container {
+    padding-left: 135px !important;
+    padding-right: 135px !important;
+  }
+}
+
+@media (min-width: 1099px) {
+  .section-pl .container {
+    padding-left: 90px !important;
+  }
+}
+@media (min-width: 1500px) {
+  .section-pl .container {
+    padding-left: 135px !important;
+  }
+}
+
 .pop-up {
   display: none;
   position: fixed;
@@ -13535,11 +13559,6 @@ section.ondemand .bgba p {
     margin-top: 80px;
   }
 }
-@media (min-width: 1500px) {
-  .school-sure__list {
-    padding: 0 90px;
-  }
-}
 @media (min-width: 1099px) {
   .school-sure__list {
     grid-template-columns: repeat(5, 1fr);
@@ -13548,7 +13567,7 @@ section.ondemand .bgba p {
 }
 @media (min-width: 1257px) {
   .school-sure__list {
-    gap: 78px;
+    justify-content: space-between;
   }
 }
 .school-sure__item-text {
