@@ -6214,6 +6214,7 @@ section.top-bar .square.patient {
   position: relative;
   z-index: 1;
   border-radius: 42px;
+  overflow: hidden;
   background: no-repeat center/cover url("../img/src/bg13.svg");
 }
 
@@ -6256,6 +6257,8 @@ body.business section.top-bar .square {
   }
   section.top-bar .square img {
     height: 550px !important;
+    width: 100%;
+    object-fit: cover;
   }
 }
 section.top-bar .square:after {
@@ -7085,31 +7088,31 @@ section.ex-rat .other .goo-bl .text {
   }
 }
 
-.faq {
+section.faq {
   padding: 20px 0;
 }
 @media (min-width: 768px) {
-  .faq {
+  section.faq {
     padding: 50px 0;
   }
 }
 @media (min-width: 1500px) {
-  .faq {
+  section.faq {
     padding: 122px 0 100px;
   }
 }
-.faq h1 {
+section.faq h1 {
   font-size: 38px;
   margin-bottom: 40px;
 }
 @media (min-width: 768px) {
-  .faq h1 {
+  section.faq h1 {
     font-size: 45px;
     margin-bottom: 75px;
   }
 }
 @media (min-width: 1099px) {
-  .faq h1 {
+  section.faq h1 {
     font-size: 66px;
     margin-bottom: 89px;
   }
@@ -11066,6 +11069,13 @@ section.blob .mob-blob img {
     bottom: 10%;
   }
 }
+.sti .top-bar .square {
+  overflow: visible !important;
+}
+.sti .top-bar .square img {
+  height: 110% !important;
+  width: auto !important;
+}
 .sti .ondemand {
   margin-top: 25px;
 }
@@ -14467,6 +14477,69 @@ section.ondemand .bgba p {
 }
 .partner form .btn:hover {
   background-color: transparent !important;
+}
+
+.understanding section.blob .bulb {
+  width: 154px;
+  height: 154px;
+  border-radius: 24px;
+  padding: 23px 12px 14px;
+}
+.understanding section.blob .bulb .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background: #130E54;
+  margin: 0 auto 21px;
+  padding: 9px;
+}
+.understanding section.blob .bulb .icon img {
+  width: 32px !important;
+  height: 42px !important;
+  margin: 0 auto;
+}
+.understanding section.blob .bulb .sub {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110%;
+  text-align: center;
+  color: #130E54;
+}
+.understanding section.blob .bulb:nth-child(3) {
+  top: 70% !important;
+  left: 46% !important;
+}
+.understanding section.blob .bulb:nth-child(4) {
+  left: -12% !important;
+  top: 5% !important;
+}
+.understanding section.ondemand {
+  padding: 35px 0 83px;
+}
+@media (min-width: 992px) {
+  .understanding section.ondemand {
+    padding: 130px 0 150px;
+  }
+}
+.understanding section.ondemand.reverse .bgba {
+  padding: 33px 30% 33px 50px;
+}
+.understanding section.ondemand.reverse .bgba .text-block {
+  padding-right: 0;
+}
+.understanding section.ondemand.reverse .bgba .uptitle {
+  margin: 0 0 16px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+}
+.understanding section.ondemand.reverse .bgba .common-title {
+  margin: 0 0 42px;
+}
+.understanding section.ondemand.reverse .bgba img {
+  height: 110%;
+  right: 5% !important;
+  bottom: -1px;
 }
 
 section.partners {
