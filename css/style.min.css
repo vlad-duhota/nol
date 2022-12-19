@@ -15760,6 +15760,25 @@ section.ondemand .bgba p {
   }
 }
 
+.landing-4 .landing-options {
+  margin-bottom: 0 !important;
+}
+@media (min-width: 1099px) {
+  .landing-4 .blob-std {
+    padding-top: 100px;
+    margin-bottom: 30px !important;
+  }
+}
+@media (min-width: 1099px) {
+  .landing-4 .common-symptoms {
+    padding-bottom: 135px;
+  }
+}
+@media (min-width: 1500px) {
+  .landing-4 .common-symptoms {
+    padding-top: 135px;
+  }
+}
 .landing-4 .landing-contact {
   padding-top: 45px;
 }
@@ -15783,8 +15802,50 @@ section.ondemand .bgba p {
     bottom: 10%;
   }
 }
+.landing-4 .top-bar p {
+  font-size: 14px;
+  margin-bottom: 26px;
+}
+@media (min-width: 1099px) {
+  .landing-4 .top-bar p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1500px) {
+  .landing-4 .top-bar p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1099px) {
+  .landing-4 .top-bar h1 {
+    font-size: 58px;
+  }
+}
+@media (min-width: 1500px) {
+  .landing-4 .top-bar h1 {
+    font-size: 66px;
+  }
+}
+@media (max-width: 450px) {
+  .landing-4 .top-bar h1 {
+    margin-bottom: 53px;
+  }
+}
+.landing-4 .top-bar .text-col {
+  margin-bottom: 0 !important;
+}
+@media (max-width: 450px) {
+  .landing-4 .top-bar .text-col {
+    margin-top: 8px;
+  }
+}
 .landing-4 .top-bar .square {
   overflow: visible !important;
+}
+@media (max-width: 450px) {
+  .landing-4 .top-bar .square {
+    border-radius: 16px !important;
+  }
 }
 .landing-4 .top-bar .square img {
   height: 98% !important;
