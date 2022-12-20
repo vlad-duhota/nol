@@ -6375,7 +6375,7 @@ section.top-bar .sm-sq {
   z-index: 1;
   width: 154px;
   height: 154px;
-  padding: 14px 24px;
+  padding: 18px 24px;
   text-align: center;
 }
 
@@ -14697,8 +14697,14 @@ section.ondemand .bgba p {
 }
 @media (min-width: 1099px) {
   .lead-gen {
+    padding-top: 0;
     margin-bottom: 135px;
     padding-bottom: 0;
+  }
+}
+@media (min-width: 1500px) {
+  .lead-gen {
+    padding-top: 40px;
   }
 }
 .lead-gen h2 {
@@ -14714,7 +14720,7 @@ section.ondemand .bgba p {
 }
 @media (min-width: 1099px) {
   .lead-gen h2 {
-    padding-top: 35px;
+    padding-top: 55px;
     font-size: 50px;
   }
 }
@@ -14726,6 +14732,7 @@ section.ondemand .bgba p {
 @media (min-width: 1500px) {
   .lead-gen h2 {
     font-size: 66px;
+    padding-top: 35px;
   }
 }
 .lead-gen__text {
@@ -14795,7 +14802,7 @@ section.ondemand .bgba p {
   }
 }
 .lead-gen__inputs input:not([type=submit]) {
-  border: 1px solid #716E98;
+  border: none;
   border-radius: 10px;
   padding: 14px 16px;
   background: #fff;
@@ -14897,6 +14904,9 @@ section.ondemand .bgba p {
     margin-bottom: 0px !important;
   }
 }
+.blob-std .text-col {
+  font-weight: 300;
+}
 @media (min-width: 1099px) {
   .blob-std .text-col {
     padding-top: 75px;
@@ -14929,7 +14939,13 @@ section.ondemand .bgba p {
 .blob-std .check-box {
   max-width: 100% !important;
 }
+@media (min-width: 1099px) {
+  .blob-std .check-box {
+    margin-bottom: 5px !important;
+  }
+}
 .blob-std .check-box .check::before {
+  margin-right: 6px !important;
   background: url(../img/src/check1.svg) center center/100% 100% no-repeat !important;
 }
 @media (min-width: 1099px) {
@@ -15097,6 +15113,11 @@ section.ondemand .bgba p {
 @media (max-width: 450px) {
   .steps-std .mySwiper3 {
     padding-right: 75px;
+  }
+}
+@media (max-width: 1500px) {
+  .steps-std .mySwiper3 .step p {
+    font-size: 14px;
   }
 }
 @media (min-width: 1099px) {
@@ -15950,11 +15971,15 @@ section.ondemand .bgba p {
   border: 2px solid #f1f1f1;
 }
 .landing-options .test-block .btn {
-  background-color: #fff !important;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
 }
-.landing-options .test-block .btn:hover {
-  background-color: #130E54 !important;
+.landing-options .test-block:hover .btn {
+  background-color: #2EB7FF;
   color: #fff !important;
+}
+.landing-options .test-block:hover .btn::after {
+  background: no-repeat center/contain url(../img/src/arr1.svg);
 }
 .landing-options .test-block.bg {
   background: #fbf5f0;
@@ -16015,7 +16040,7 @@ section.ondemand .bgba p {
   color: rgba(19, 14, 84, 0.6);
   font-size: 14px;
 }
-@media (min-width: 1099px) {
+@media (min-width: 1500px) {
   .landing-options .test-block .l-b .texts p {
     font-size: 16px;
   }
@@ -16032,7 +16057,7 @@ section.ondemand .bgba p {
     font-size: 20px;
     line-height: 1;
     height: 40px;
-    margin-bottom: 19px;
+    margin-bottom: 6px;
   }
 }
 @media (max-width: 1100px) {
@@ -16079,10 +16104,6 @@ section.ondemand .bgba p {
 }
 .landing-options .test-block .r-b .pins > span.blue {
   background-color: #b7e6ff;
-}
-.landing-options .test-block .r-b .pins > span.blue {
-  background-color: #FFFFFF;
-  border: 1px solid #130E54;
 }
 .landing-options .test-block .r-b .pins > span.perc {
   background-color: #FB9696;
